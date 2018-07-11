@@ -42,24 +42,45 @@
         <div class="main-menu">
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
             <li class="active"><a href="index.html"> <i class="icon-home"></i><span>Home</span></a></li>
-            <li> <a href="forms.html"><i class="icon-form"></i><span>Forms</span></a></li>
-            <li> <a href="charts.html"><i class="icon-presentation"></i><span>Charts</span></a></li>
-            <li> <a href="tables.html"> <i class="icon-grid"> </i><span>Tables                        </span></a></li>
-            <li> <a href="login.html"> <i class="icon-interface-windows"></i><span>Login page                        </span></a></li>
           </ul>
         </div>
         <div class="admin-menu">
-          <ul id="side-admin-menu" class="side-menu list-unstyled"> 
-            <li> <a href="#pages-nav-list" data-toggle="collapse" aria-expanded="false"><i class="icon-interface-windows"></i><span>Dropdown</span>
-                <div class="arrow pull-right"><i class="fa fa-angle-down"></i></div></a>
-              <ul id="pages-nav-list" class="collapse list-unstyled">
+          <ul id="side-admin-menu" class="side-menu list-unstyled">
+            <li> <a href="#pages-nav-list-rest" data-toggle="collapse" aria-expanded="false"><i class="icon-interface-windows"></i><span>Spring REST</span>
+              <div class="arrow pull-right"><i class="fa fa-angle-down"></i></div></a>
+              <ul id="pages-nav-list-rest" class="collapse list-unstyled">
                 <li> <a href="#">Page 1</a></li>
                 <li> <a href="#">Page 2</a></li>
-                <li> <a href="#">Page 3</a></li>
-                <li> <a href="#">Page 4</a></li>
               </ul>
             </li>
-            <li> <a href="#"> <i class="icon-screen"> </i><span>Demo</span></a></li>
+            <li> <a href="#pages-nav-list-data" data-toggle="collapse" aria-expanded="false"><i class="icon-interface-windows"></i><span>Spring Data</span>
+              <div class="arrow pull-right"><i class="fa fa-angle-down"></i></div></a>
+              <ul id="pages-nav-list-data" class="collapse list-unstyled">
+                <li> <a href="#">Page 1</a></li>
+                <li> <a href="#">Page 2</a></li>
+              </ul>
+            </li>
+            <li> <a href="#pages-nav-list-mvc" data-toggle="collapse" aria-expanded="false"><i class="icon-interface-windows"></i><span>Spring MVC</span>
+                <div class="arrow pull-right"><i class="fa fa-angle-down"></i></div></a>
+              <ul id="pages-nav-list-mvc" class="collapse list-unstyled">
+                <li> <a href="#">Page 1</a></li>
+                <li> <a href="#">Page 2</a></li>
+              </ul>
+            </li>
+            <li> <a href="#pages-nav-list-boot" data-toggle="collapse" aria-expanded="false"><i class="icon-interface-windows"></i><span>Spring Boot</span>
+              <div class="arrow pull-right"><i class="fa fa-angle-down"></i></div></a>
+              <ul id="pages-nav-list-boot" class="collapse list-unstyled">
+                <li> <a href="#">Page 1</a></li>
+                <li> <a href="#">Page 2</a></li>
+              </ul>
+            </li>
+            <li> <a href="#pages-nav-list-collection" data-toggle="collapse" aria-expanded="false"><i class="icon-interface-windows"></i><span>Collections</span>
+              <div class="arrow pull-right"><i class="fa fa-angle-down"></i></div></a>
+              <ul id="pages-nav-list-collection" class="collapse list-unstyled">
+                <li> <a href="#">Page 1</a></li>
+                <li> <a href="#">Page 2</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -73,52 +94,7 @@
               <div class="navbar-header"><a id="toggle-btn" href="#" class="menu-btn"><i class="icon-bars"> </i></a><a href="index.html" class="navbar-brand">
                   <div class="brand-text hidden-sm-down"><span>Spring </span><strong class="text-primary">IO</strong></div></a></div>
               <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
-                <li class="nav-item dropdown"> <a id="notifications" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-bell"></i><span class="badge badge-warning">12</span></a>
-                  <ul aria-labelledby="notifications" class="dropdown-menu">
-                    <li><a rel="nofollow" href="#" class="dropdown-item"> 
-                        <div class="notification d-flex justify-content-between">
-                          <div class="notification-content"><i class="fa fa-envelope"></i>You have 6 new messages </div>
-                          <div class="notification-time"><small>4 minutes ago</small></div>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item"> 
-                        <div class="notification d-flex justify-content-between">
-                          <div class="notification-content"><i class="fa fa-twitter"></i>You have 2 followers</div>
-                          <div class="notification-time"><small>4 minutes ago</small></div>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item"> 
-                        <div class="notification d-flex justify-content-between">
-                          <div class="notification-content"><i class="fa fa-upload"></i>Server Rebooted</div>
-                          <div class="notification-time"><small>4 minutes ago</small></div>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item"> 
-                        <div class="notification d-flex justify-content-between">
-                          <div class="notification-content"><i class="fa fa-twitter"></i>You have 2 followers</div>
-                          <div class="notification-time"><small>10 minutes ago</small></div>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-bell"></i>view all notifications                                            </strong></a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown"> <a id="messages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-envelope"></i><span class="badge badge-info">10</span></a>
-                  <ul aria-labelledby="notifications" class="dropdown-menu">
-                    <li><a rel="nofollow" href="#" class="dropdown-item d-flex"> 
-                        <div class="msg-profile"> <img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="msg-body">
-                          <h3 class="h5">Jason Doe</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item d-flex"> 
-                        <div class="msg-profile"> <img src="img/avatar-2.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="msg-body">
-                          <h3 class="h5">Frank Williams</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item d-flex"> 
-                        <div class="msg-profile"> <img src="img/avatar-3.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="msg-body">
-                          <h3 class="h5">Ashley Wood</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
-                        </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Read all messages    </strong></a></li>
-                  </ul>
-                </li>
-                <li class="nav-item"><a href="login.html" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link logout">Login<i class="fa fa-sign-out"></i></a></li>
               </ul>
             </div>
           </div>
@@ -131,48 +107,48 @@
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-user"></i></div>
-                <div class="name"><strong class="text-uppercase">New Clients</strong><span>Last 7 days</span>
-                  <div class="count-number">25</div>
+                <div class="name"><strong class="text-uppercase">Spring REST</strong><span>Last 7 days</span>
+                  <div class="count-number">2</div>
                 </div>
               </div>
             </div>
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-padnote"></i></div>
-                <div class="name"><strong class="text-uppercase">Work Orders</strong><span>Last 5 days</span>
-                  <div class="count-number">400</div>
+                <div class="name"><strong class="text-uppercase">Spring Data</strong><span>Last 7 days</span>
+                  <div class="count-number">2</div>
                 </div>
               </div>
             </div>
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-check"></i></div>
-                <div class="name"><strong class="text-uppercase">New Quotes</strong><span>Last 2 months</span>
-                  <div class="count-number">342</div>
+                <div class="name"><strong class="text-uppercase">Spring Persistence</strong><span>Last 7 months</span>
+                  <div class="count-number">2</div>
                 </div>
               </div>
             </div>
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-bill"></i></div>
-                <div class="name"><strong class="text-uppercase">New Invoices</strong><span>Last 2 days</span>
-                  <div class="count-number">123</div>
+                <div class="name"><strong class="text-uppercase">Spring MVC</strong><span>Last 7 days</span>
+                  <div class="count-number">2</div>
                 </div>
               </div>
             </div>
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-list"></i></div>
-                <div class="name"><strong class="text-uppercase">Open Cases</strong><span>Last 3 months</span>
-                  <div class="count-number">92</div>
+                <div class="name"><strong class="text-uppercase">Spring Boot</strong><span>Last 7 months</span>
+                  <div class="count-number">2</div>
                 </div>
               </div>
             </div>
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-list-1"></i></div>
-                <div class="name"><strong class="text-uppercase">New Cases</strong><span>Last 7 days</span>
-                  <div class="count-number">70</div>
+                <div class="name"><strong class="text-uppercase">Collection Framework</strong><span>Last 7 days</span>
+                  <div class="count-number">2</div>
                 </div>
               </div>
             </div>
